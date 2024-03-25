@@ -21,8 +21,6 @@ public class Bread extends Product{
 
     @Override
     public String toString() {
-        return "Bread{" +
-                "bakedDate=" + bakedDate +
-                '}';
+        return super.toString() + " " + this.bakedDate;
     }
 }
